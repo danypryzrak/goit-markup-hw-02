@@ -1,0 +1,240 @@
+:root {
+    --brand-color: #2196F3
+}
+
+
+/* body */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    background: #F5F5F5;
+}
+
+
+/* header */
+header{
+    background: #FFFFFF;
+    
+}
+.site-logo{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        color: #000000;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+        text-decoration: none
+        
+}
+.logo-web{
+    color: var(--brand-color);
+
+}
+
+.site-nav .link{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+    text-decoration: none
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--brand-color);
+    cursor: pointer;
+
+}
+
+.site-contacts .contacts{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+        text-decoration: none
+}
+
+.site-contacts .contacts:hover,
+.site-contacts .contacts:focus{
+    color: var(--brand-color);
+    cursor: pointer;
+}
+    
+/* Main */
+
+/* Главная кнопка */
+.main-button {
+    
+    
+    background: #2F303A;
+
+}
+.main-button .text{
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.main-button > button{
+    background: var(--brand-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+.main-button .button-text{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+/* Преимущества */
+
+.list-tittle{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+}
+    
+ .plus .discription{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+       
+/* Род дейтельности */
+.mission-tittle{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
+/* Наша команда */
+.team{
+    background: #F5F4FA;
+}
+
+.team-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+        
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+.team-job{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+   
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+/* Попка сайта */
+
+.footer{
+    background: #2F303A;
+}
+
+.map {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+        text-decoration: none
+}
+
+.footer-contacts{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none
+}
+
+.map:hover
+.footer-contacts:hover{
+    cursor: pointer;
+}
+/* Portfolio Main */
+
+.filter button{
+background: #F5F4FA;
+
+}
+
+.filter button:hover,
+.filter button:focus{
+    background: var(--brand-color);
+    cursor: pointer;
+}
