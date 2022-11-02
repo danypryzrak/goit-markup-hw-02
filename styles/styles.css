@@ -10,6 +10,10 @@ body{
     background: #F5F5F5;
 }
 
+ul{
+    list-style: none;
+}
+
 
 /* header */
 header{
@@ -36,8 +40,6 @@ header{
 
 .site-nav .link{
 
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -54,8 +56,7 @@ header{
 }
 
 .site-contacts .contacts{
-    font-family: 'Roboto';
-        font-style: normal;
+    
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
@@ -68,7 +69,7 @@ header{
 .site-contacts .contacts:hover,
 .site-contacts .contacts:focus{
     color: var(--brand-color);
-    cursor: pointer;
+    
 }
     
 /* Main */
@@ -82,9 +83,6 @@ header{
 }
 .main-button .text{
 
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -102,8 +100,7 @@ header{
         border-radius: 4px;
 }
 .main-button .button-text{
-font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -120,8 +117,7 @@ font-family: 'Roboto';
 /* Преимущества */
 
 .list-tittle{
-    font-family: 'Roboto';
-        font-style: normal;
+    
         font-weight: 700;
         font-size: 14px;
         line-height: 16px;
@@ -132,9 +128,7 @@ font-family: 'Roboto';
 }
     
  .plus .discription{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
+   
         font-size: 14px;
         line-height: 24px;
         /* or 171% */
@@ -146,8 +140,7 @@ font-family: 'Roboto';
        
 /* Род дейтельности */
 .mission-tittle{
-    font-family: 'Roboto';
-        font-style: normal;
+    
         font-weight: 700;
         font-size: 36px;
         line-height: 42px;
@@ -163,8 +156,7 @@ font-family: 'Roboto';
 }
 
 .team-name{
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -175,9 +167,7 @@ font-family: 'Roboto';
 }
 
 .team-job{
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
@@ -195,9 +185,7 @@ font-family: 'Roboto';
 }
 
 .map {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
+   
         font-size: 14px;
         line-height: 24px;
         /* or 171% */
@@ -209,9 +197,7 @@ font-family: 'Roboto';
 }
 
 .footer-contacts{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
+   
         font-size: 14px;
         line-height: 24px;
         /* or 171% */
@@ -230,6 +216,9 @@ font-family: 'Roboto';
 
 .filter button{
 background: #F5F4FA;
+font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
 
 }
 
@@ -237,4 +226,20 @@ background: #F5F4FA;
 .filter button:focus{
     background: var(--brand-color);
     cursor: pointer;
+}
+
+/* Проэкты */
+
+.projects h2{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+}
+
+.projects p{
+    font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        color: #757575;
 }
