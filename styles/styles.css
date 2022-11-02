@@ -1,6 +1,9 @@
 :root {
     --brand-color: #2196F3
 }
+:root{
+    --discription: #757575
+}
 
 
 /* body */
@@ -62,7 +65,7 @@ header{
         line-height: 16px;
         letter-spacing: 0.02em;
     
-        color: #757575;
+        color: var(--discription);
         text-decoration: none
 }
 
@@ -135,7 +138,7 @@ header{
     
         letter-spacing: 0.03em;
     
-        color: #757575;
+        color: var(--discription);
 }
        
 /* Род дейтельности */
@@ -175,7 +178,7 @@ header{
    
     letter-spacing: 0.03em;
 
-    color: #757575;
+    color: var(--discription);
 }
 
 /* Попка сайта */
@@ -241,5 +244,5 @@ font-weight: 500;
     font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--discription);
 }
