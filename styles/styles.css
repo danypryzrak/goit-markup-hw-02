@@ -33,7 +33,6 @@ header{
         font-size: 26px;
         line-height: 2;
         color: #000000;
-        /* identical to box height */
     
         letter-spacing: 0.03em;
         text-decoration: none
@@ -109,13 +108,12 @@ header{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
-    /* identical to box height, or 188% */
+
 
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: var(--white);
 }
 
@@ -136,10 +134,7 @@ header{
    
         font-size: 14px;
         line-height: 1.7;
-        /* or 171% */
-    
         letter-spacing: 0.03em;
-    
         color: var(--discription);
 }
        
@@ -160,27 +155,27 @@ header{
 }
 
 .team-name{
-    
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.1;
-        
+    line-height: 1.1;   
     letter-spacing: 0.03em;
 }
 
 .team-job{
-
     font-size: 16px;
     line-height: 1.1;
-    /* identical to box height */
-
-   
     letter-spacing: 0.03em;
-
     color: var(--discription);
 }
 
 /* Попка сайта */
+.logo-footer{
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
 .footer{
     background: var(--dark-font);
@@ -189,8 +184,8 @@ header{
 .map {
    
         font-size: 14px;
+        font-style: normal;
         line-height: 1.7;
-        /* or 171% */
     
         letter-spacing: 0.03em;
     
@@ -201,17 +196,21 @@ header{
 .footer-contacts{
    
         font-size: 14px;
+        font-style: normal;
         line-height: 1.7;
-        /* or 171% */
-    
         letter-spacing: 0.03em;
     
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none
 }
 
-.map:hover
-.footer-contacts:hover{
+.footer-contacts:hover,
+.footer-contacts:focus{
+    cursor: pointer;
+    color: var(--brand-color);
+}
+
+.map:hover{
     cursor: pointer;
 }
 /* Portfolio Main */
@@ -227,6 +226,7 @@ font-weight: 500;
 .filter button:hover,
 .filter button:focus{
     background: var(--brand-color);
+    color: #FFFFFF;
     cursor: pointer;
 }
 
